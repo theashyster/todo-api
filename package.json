@@ -1,0 +1,31 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node -r ts-node/register --env-file=.env --watch src/index.ts",
+    "start": "node -r ts-node/register --env-file=.env src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Andris Nolendorfs",
+  "license": "ISC",
+  "description": "RESTful API for the TODO app",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.21.2",
+    "pg": "8.14.1",
+    "reflect-metadata": "0.2.2",
+    "socket.io": "4.8.1",
+    "typeorm": "0.3.21"
+  },
+  "devDependencies": {
+    "@types/cors": "2.8.17",
+    "@types/express": "5.0.0",
+    "@types/node": "22.13.10",
+    "ts-node": "10.9.2",
+    "tslib": "2.8.1",
+    "typescript": "5.8.2"
+  }
+}
