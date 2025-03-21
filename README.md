@@ -19,4 +19,4 @@
 - Run the command `docker compose up --build` in the terminal to start the docker container
 - Run the command `docker compose down` in the terminal to destroy the docker container
 - Run the command `npm run dev` to run the API part of the project locally (first you have to start the docker container for the DB only)
-- Project assumes that backend locally runs on http://localhost:3100
+- Backend locally runs on http://localhost:3100
